@@ -1,3 +1,5 @@
+
+
 <html>
 <head>
 <title>js counter</title>
@@ -58,13 +60,13 @@ height:auto;
     <center><div class="nav">
     <br><br><br><br><br><br>
     <br> 
-    <inputstyle="height: 200;" type="text" placeholder="Enter that same number you entered before..." id="myinput">
+    <input style="width: 300px;" type="text" placeholder="Enter that same number you entered before..." id="myinput">
     <button type="button" onclick="get();">end number at</button>
     <br>
     <br>
     <br>
     
-    <input type="button" value="start counter" onclick="incrementCount(10)"/> 
+    <input style="border-radius: 10px; width: 100px; height: 40px;" type="button" value="start counter" onclick="incrementCount(10)"/> 
 <div class="main_container" id="id_main_container">
 <div class="container_inner" id="display_div_id">
 </div>
@@ -79,7 +81,7 @@ height:auto;
 
 function get(){
     var inputval=document.getElementById("myinput").value;
-    alert(inputval);
+    alert("Hii, your counter will end at "+inputval);
     console.log(inputval);
 }
 
